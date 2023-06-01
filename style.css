@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 48px 0px;
+}
+
+.form{
+    border: 1px solid #000;
+    padding: 32px;
+}
+
+.form-row{
+    display: flex;
+    padding: 8px 0px;
+}
+
+.form-row .form-label{
+    min-width: 90px;
+}
+
+.form-row .form-inp{
+    min-width: 200px;
+    border: 1px solid #000;
+}
+
+.form-btn{
+    float:right;
+    padding: 8px 0px;
+}
+
+.form-btn .input-btn{
+    padding: 2px 4px;
+    min-width: 60px;
+    margin-left: 12px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+}
+
+
+.form-btn .input-btn:hover{
+    color: #000;
+    background-color: #fff;
+}
